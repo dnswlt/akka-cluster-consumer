@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package product;
+
+option java_package = "de.reondo.akka.cluster.proto.product";
+option java_outer_classname = "ProductProtos";
+
+message Product {
+    string name = 1;
+    int32 id = 2;
+    int32 price = 3;
+}
